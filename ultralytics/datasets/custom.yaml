@@ -1,0 +1,13 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/dalia/Downloads/yolo8-dataset/ss-1/  # dataset root dir
+train: /home/dalia/Downloads/yolo8-dataset/ss-1/train/images/ # train images (relative to 'path')  6471 images
+val: /home/dalia/Downloads/yolo8-dataset/ss-1/valid/images/  # val images (relative to 'path')  548 images
+test: /home/dalia/Downloads/yolo8-dataset/ss-1/test/images/  # test images (optional)  1610 images
+
+# Classes
+names:
+  0: Caries
+  1: Crown
+  2: Filling
+  3: Implant
+  4: Root canal obturation
